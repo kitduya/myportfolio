@@ -64,11 +64,6 @@ header li{
   border-right: 1px solid white;
 }
 
-.current{
-    color: #2EFEF7;
-    opacity: 0.9;
-}
-
 .top-wrapper{
   background-image: url(header4.jpg);
   background-size: cover;
@@ -112,7 +107,7 @@ header li{
 
 .work img{
   width: 80%;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .work-text{
