@@ -76,8 +76,6 @@ header li{
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: block;
-  /* width: 100vw;
-  height: 100vh; */
   text-align: center;
   color: rgba(0, 0, 0, 0.9);
 }
