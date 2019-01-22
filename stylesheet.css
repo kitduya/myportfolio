@@ -64,13 +64,23 @@ header li{
   border-right: 1px solid white;
 }
 
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  display: none;
+  margin-right: 10px;
+}
+
 .top-wrapper{
-  background-image: url(header4.jpg);
+  background-image: url("header4.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: block;
+  /* width: 100vw;
+  height: 100vh; */
   text-align: center;
   color: rgba(0, 0, 0, 0.9);
 }
@@ -107,7 +117,7 @@ header li{
 
 .work img{
   width: 80%;
-  margin: 0 auto;
+margin: 0 auto;
 }
 
 .work-text{
