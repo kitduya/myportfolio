@@ -4,7 +4,7 @@
 
 .clear{
   clear: both;
-  font-family: "Hiragino Kaku Gothic ProN";
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
 body{
@@ -80,16 +80,12 @@ header li{
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: block;
-  /* width: 100vw;
-  height: 100vh; */
   text-align: center;
   color: rgba(0, 0, 0, 0.9);
 }
 
 .top-wrapper-layer{
   background-color: rgba(255, 255, 255, 0.2);
-  /* width: 100vw;
-  height: 100vh; */
 }
 
 .home_animation{
@@ -178,8 +174,6 @@ footer{
   width: 100%;
   height: 25px;
   background-color: rgba(34,49,52,0.9);
-  /* position: absolute;
-  bottom: 0; */
 }
 
 footer h1{
