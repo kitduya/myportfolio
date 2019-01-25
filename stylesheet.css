@@ -4,11 +4,11 @@
 
 .clear{
   clear: both;
-  font-family:"ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
 body{
   margin: 0;
+  font-family:"ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
 .container{
@@ -80,12 +80,16 @@ header li{
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: block;
+  /* width: 100vw;
+  height: 100vh; */
   text-align: center;
   color: rgba(0, 0, 0, 0.9);
 }
 
 .top-wrapper-layer{
   background-color: rgba(255, 255, 255, 0.2);
+  /* width: 100vw;
+  height: 100vh; */
 }
 
 .home_animation{
@@ -151,7 +155,8 @@ margin: 0 auto;
 }
 
 .btn{
-  width: 200px;
+  width: 30%;
+  margin: 0 5% 20px 5%;
   height: 50px;
   color: white;
   display: inline-block;
@@ -170,10 +175,16 @@ margin: 0 auto;
   background-color: #239b76;
 }
 
+.btn-github{
+  background-color: #212121;
+}
+
 footer{
   width: 100%;
   height: 25px;
   background-color: rgba(34,49,52,0.9);
+  /* position: absolute;
+  bottom: 0; */
 }
 
 footer h1{
@@ -184,3 +195,4 @@ footer h1{
   font-weight: normal;
   font-size: 12px;
 }
+
